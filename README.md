@@ -4,7 +4,7 @@
 This repository contains the Hipparcos Main Astrometric Catalogue in various file formats.
 
 ### Details
-- Catalogue Pulled From [VizieR](http://vizier.u-strasbg.fr/)
+- Catalogue Pulled From [VizieR (Mirror: CDS, France)](http://vizier.u-strasbg.fr/)
 - Author: ESA
 - Year: 1997
 - 118218 stars
