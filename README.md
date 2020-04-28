@@ -3,11 +3,18 @@
 ## The Hipparcos Main Catalogue
 This repository contains the Hipparcos Main Astrometric Catalogue in various file formats.
 
-#### Details
+### Details
 - Catalogue Pulled From [VizieR](http://vizier.u-strasbg.fr/)
 - Author: ESA
 - Year: 1997
 - 118218 stars
+
+#### Available File Formats
+- Tab Separated Values (.tsv)
+- Comma Separated Values (.csv)
+- Strict Open XML Spreadsheet (.xlsx)
+- Excel 97-2004 Workbook (.xls)
+- Web Page (.htm)
 
 #### Table Columns
 | Column | Data type | Details |
@@ -27,12 +34,5 @@ This repository contains the Hipparcos Main Astrometric Catalogue in various fil
 | \_RA.icrs | (degrees) | Right Ascension (ICRS, epoch 2000) |
 | \_DE.icrs | (degrees) | Declination (ICRS, epoch 2000) |
 
-#### Usage
+### Usage
 This dataset is intended to be used with the StarMapLite project but can also be used for any other projects. This catalogue has been converted into multiple file formats for ease of use when porting into your project.
-
-##### Available File Formats
-- Tab Separated Values (.tsv)
-- Comma Separated Values (.csv)
-- Strict Open XML Spreadsheet (.xlsx)
-- Excel 97-2004 Workbook (.xls)
-- Web Page (.htm)
