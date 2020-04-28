@@ -1,7 +1,7 @@
 # Hipparcos-Catalogue
 
 ## The Hipparcos Main Catalogue
-This repository contains the Hipparcos Main Astrometric Catalogue in a Comma Separated Values file (.csv) and an Microsoft Excel file (.xlsx) 
+This repository contains the Hipparcos Main Astrometric Catalogue in various file formats.
 
 #### Details
 - Catalogue Pulled From [VizieR](http://vizier.u-strasbg.fr/)
@@ -13,7 +13,11 @@ This repository contains the Hipparcos Main Astrometric Catalogue in a Comma Sep
 | Column | Data type | Details |
 | --- | --- | --- |
 | HIP | string | Catalogue identifier number |
+| RAhms | string (hours minutes seconds) | Right ascension in h m s, ICRS (J1991.25) |
+| DEdms | string (degrees minutes seconds) | Right ascension in h m s, ICRS (J1991.25)|
 | Vmag | (magnitude) | Magnitude in Johnson V |
+| RAICRS | (degrees) | alpha, degrees (ICRS, Epoch=J1991.25) |
+| DEICRS | (degrees) | delta, degrees (ICRS, Epoch=J1991.25) |
 | Plx | (milli-seconds of arc) | Trigonometric parallax |
 | pmRA | (milli-seconds of arc per year) | Proper motion mu_alpha.cos(delta), ICRS(H12) (for J1991.25 epoch) |
 | pmDE | (milli-seconds of arc per year) | Proper motion mu_delta, ICRS (H13) (for J1991.25 epoch) |
@@ -24,4 +28,11 @@ This repository contains the Hipparcos Main Astrometric Catalogue in a Comma Sep
 | \_DE.icrs | (degrees) | Declination (ICRS, epoch 2000) |
 
 #### Usage
-This dataset is intended to be used with the StarMapLite project but can be used for other purposes quite easily as it is in a .csv file. A .xlsx file is also included for easy use with Microsoft Excel.
+This dataset is intended to be used with the StarMapLite project but can also be used for any other projects. This catalogue has been converted into multiple file formats for ease of use when porting into your project.
+
+##### Available File Formats
+- Tab Separated Values (.tsv)
+- Comma Separated Values (.csv)
+- Strict Open XML Spreadsheet (.xlsx)
+- Excel 97-2004 Workbook (.xls)
+- Web Page (.htm)
